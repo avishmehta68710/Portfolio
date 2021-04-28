@@ -142,34 +142,23 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Music Player",
-      company: "Music Player",
-      companylogo: require("./assets/images/project1.png"),
+      role: "Backend Developer",
+      company: "Molmeh-Technolabs",
+      companylogo: require("./assets/images/molmeh.png"),
       date: "",
       desc:
-        "Music Player Using Python. Some of the unique Features Include",
+        "",
       descBullets: [
-        "Visualization of the audio signals",
-        "saving and recording of the songs",
-        "conversion of songs from one format to another (eg from .wav to mp3 or vice-versa)"
+        "Gained Knowledge of Django framework and  worked on projects using Django, Python, JavaScript, HTML and CSS.", 
+        "I worked on projects such as Scheduling the IPL matches between various teams, deciding the date and the location of the match",
+        "Making Custom User Validation and authentication in Django",
+
       ]
     },
-    {
-      role: "Gender Predictions",
-      company: "Gender Predictions",
-      companylogo: require("./assets/images/githublogo.png"),
-      date: "",
-      desc:
-        "Created A MAchine Learning Model to predict the gender based on the Twitter user datasets.",
-      descBullets: [
-        "We compared the tweet count of the two genders using EDA and Visualized the frequency of the two genders",
-        "We also removed stopwords and We applied TF-IDF for feature classification to make the algorithms understand the text content better",
-        "Naive Bayes algorithm gives the best accuracy of around 69% if the feature extraction method used is Bag of Words"
-      ]
-    },
+    
     // {
     //   role: "",
     //   company: "Airbnb",
