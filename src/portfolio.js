@@ -37,7 +37,7 @@ const skillsSection = {
   subTitle: "CRAZY EXPLORER WHO WANTS TO GET HIS HANDS DIRTY ON EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Full Stack User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Developing solutions to real life problems"),
     emoji(
@@ -62,6 +62,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -78,12 +82,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-flutter"
     },
     {
-      skillName: "GitHub",  
+      skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Postgres",
+      fontAwesomeClassname: "fas fa-database"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -152,7 +164,7 @@ const workExperiences = {
       desc:
         "",
       descBullets: [
-        "Gained Knowledge of Django framework and  worked on projects using Django, Python, JavaScript, HTML and CSS.", 
+        "Gained Knowledge of Django framework and  worked on projects using Django, Python, JavaScript, HTML and CSS.",
         "I worked on projects such as Scheduling the IPL matches between various teams, deciding the date and the location of the match",
         "Making Custom User Validation and authentication in Django",
 
@@ -165,6 +177,17 @@ const bigProjects = {
   subtitle: "SOME OF MY SPOTLIGHT PROJECTS",
   projects: [
     {
+      image: require("./assets/images/linkedin.png"),
+      projectName: "Linkedin Bot",
+      projectDesc: "Automating the process of getting referrals and cold mailing people on linkedin",
+      footerLink: [
+        {
+          name: "Visit Project",
+          url: "https://github.com/avishmehta68710/linkedinBot"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/project1.png"),
       projectName: "Engage For Change",
       projectDesc: "A platform where people could connect and post about social work and help in uplift the community.",
@@ -174,17 +197,6 @@ const bigProjects = {
           url: "https://github.com/avishmehta68710/Engage_For_Change"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/cricket_scoreboard.png"),
-      projectName: "Cricket Score Alert",
-      projectDesc: "Automated Script For Displaying and Updating the Cricket Scoreboard",
-      footerLink: [
-        {
-          name: "Visit Project",
-          url: "https://github.com/avishmehta68710/CricBuddy"
-        }
       ]
     },
     {
@@ -265,7 +277,7 @@ const achievementSection = {
       subtitle: "GeeksforGeeks Profile",
       image: require("./assets/images/geeksforgeeks.png"),
       footerLink: [
-        {name: "Profile", url: "https://auth.geeksforgeeks.org/user/avishmehta2001/practice/"},
+        { name: "Profile", url: "https://auth.geeksforgeeks.org/user/avishmehta2001/practice/" },
       ]
     }
   ],
@@ -281,13 +293,13 @@ const blogSection = {
 
   blogs: [
     {
-     
+
       title: " Ground temperature estimation using Machine Learning ",
       description:
         "Publisher: World Geothermal Congress, Reykjavik"
     },
     {
-      
+
       title: "A Comprehensive Study on Amalgamation of Sustainable Solar Powered Distillation for Arsenic and Fluoride Removal from Groundwater",
       description:
         "Publisher: Elsiever"
