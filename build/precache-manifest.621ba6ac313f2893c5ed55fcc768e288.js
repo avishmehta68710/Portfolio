@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42420dcd88fdacf80824c130be844794",
+    "revision": "9883b1e8baeb038416cdf170b133de3e",
     "url": "/index.html"
   },
   {
-    "revision": "e76656f150b8cf97f1a4",
+    "revision": "cfeb5dbbfbc95bb59674",
     "url": "/static/css/3.6a352120.chunk.css"
   },
   {
-    "revision": "e7598df1a2b29a1fef39",
+    "revision": "09ef43d18b29fbbecd75",
     "url": "/static/css/4.6e14a8dd.chunk.css"
   },
   {
-    "revision": "ad1be94cb6707881ee98",
+    "revision": "fd5d3547eff033895290",
     "url": "/static/css/main.06739379.chunk.css"
   },
   {
-    "revision": "f3488a4b0ad2bd89b082",
-    "url": "/static/js/2.a0759f43.chunk.js"
+    "revision": "e32358d4f5b6cacd2b72",
+    "url": "/static/js/2.af094384.chunk.js"
   },
   {
     "revision": "3dbd45c8ed21d092cdcb3d5851d22288",
-    "url": "/static/js/2.a0759f43.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.af094384.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e76656f150b8cf97f1a4",
-    "url": "/static/js/3.73de6fd9.chunk.js"
+    "revision": "cfeb5dbbfbc95bb59674",
+    "url": "/static/js/3.0b433f2b.chunk.js"
   },
   {
-    "revision": "e7598df1a2b29a1fef39",
-    "url": "/static/js/4.e7ed4917.chunk.js"
+    "revision": "09ef43d18b29fbbecd75",
+    "url": "/static/js/4.0b52d1bd.chunk.js"
   },
   {
-    "revision": "ad1be94cb6707881ee98",
-    "url": "/static/js/main.174b86ee.chunk.js"
+    "revision": "fd5d3547eff033895290",
+    "url": "/static/js/main.18b53ff8.chunk.js"
   },
   {
-    "revision": "454eeb7befc9559014a4",
-    "url": "/static/js/runtime-main.5cb72587.js"
+    "revision": "ab08ef8da298f1d23c4a",
+    "url": "/static/js/runtime-main.28a9e613.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -56,16 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
-    "revision": "b3cc7633690cbcb053424ce0f4457e9c",
-    "url": "/static/media/cricket_scoreboard.b3cc7633.png"
-  },
-  {
     "revision": "59389695208d7454c6607bed51ed4316",
     "url": "/static/media/developerActivity.59389695.svg"
   },
   {
     "revision": "6b747dbf42077b07b5cd332c8d3e9535",
     "url": "/static/media/hackerrank.6b747dbf.png"
+  },
+  {
+    "revision": "d6ca9cfb7dc00080b3e640622b4e44eb",
+    "url": "/static/media/linkedin.d6ca9cfb.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",

@@ -157,6 +157,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Backedn Developer",
+      company: "LogicWind",
+      companylogo: require("./assets/images/logicwind.png"),
+      date: "",
+      desc: "",
+      descBullets: [
+        "Worked on Building Webhooks across different platforms such as Sentry, Bitbucket, GitLab, GitHub using NodeJS + Express and Sequelize with Postgres",
+        "Alert Members of the Team about all the different activities happening across all the platforms such as in Sentry alert members for bugs and errors, in Bitbucket alert members for changes in the code files and keep track on commits and merge requests",
+        "Made a Web Scrapping Tool For Extracting details from other websites using NodeJS + Express and deployed it on AWS Lambda"
+      ]
+    }
+    , {
       role: "Backend Developer",
       company: "Molmeh-Technolabs",
       companylogo: require("./assets/images/molmeh.png"),
