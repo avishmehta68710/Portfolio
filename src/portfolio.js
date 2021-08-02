@@ -157,7 +157,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backedn Developer",
+      role: "Backend Developer",
       company: "LogicWind",
       companylogo: require("./assets/images/logicwind.png"),
       date: "",
