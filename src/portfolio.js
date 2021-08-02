@@ -25,7 +25,7 @@ const socialMediaLinks = {
   github: "https://github.com/avishmehta68710",
   linkedin: "https://www.linkedin.com/in/avishmehta",
   gmail: "avishmehta68710@gmail.com",
-  gitlab: "https://gitlab.com/avishmehta68710",
+  // gitlab: "https://gitlab.com/avishmehta68710",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };
