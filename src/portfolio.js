@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Tech Enthusiast 🚀 looking for opportunites as a software engineer "
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1589s_H5evnt5sCkSGPy2l47UyLBWZLwLvrcXOiz3zEk/edit?usp=sharing",
+    "https://drive.google.com/file/d/11d_Ndxd7SaVMX5QjT21H5-GtXxTQjzvT/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
