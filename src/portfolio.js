@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Tech Enthusiast 🚀 looking for opportunites as a software engineer "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/11d_Ndxd7SaVMX5QjT21H5-GtXxTQjzvT/view?usp=sharing",
+    "https://drive.google.com/file/d/1DsC_-njY-9nHVxuYESoIqelX13NA3Mn9/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY EXPLORER WHO WANTS TO GET HIS HANDS DIRTY ON EVERY TECH STACK",
+  subTitle:
+    "CRAZY EXPLORER WHO WANTS TO GET HIS HANDS DIRTY ON EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Full Stack User Interfaces for your web and mobile applications"
@@ -124,8 +125,7 @@ const educationInfo = {
       logo: require("./assets/images/mds_logo.png"),
       subHeader: "Senior Secondary Education (Class XII) ",
       duration: "2018 - 2019",
-      desc:
-        "Acheived 77% in CBSE Class XII",
+      desc: "Acheived 77% in CBSE Class XII"
     }
   ]
 };
@@ -158,30 +158,40 @@ const workExperiences = {
   experience: [
     {
       role: "Backend Developer",
+      company: "Aztlan",
+      companylogo: require("./assets/images/aztlan.png"),
+      data: "",
+      desc: "",
+      descBullets: [
+        "Worked on making the user Flows and Dashboard for Ola Electric, which enables users to buy electric vehicles from Ola and also reduces the number of physical visits to RTO using Nodejs",
+
+        "Worked on various other projects such as startup investor meet and tapeit which connects entrepreneurs and investors together and the dashboard to order tapes for different vehicles using Supabase(Open Source for Firebase), SQL and JavaScript"
+      ]
+    },
+    {
+      role: "Backend Developer",
       company: "LogicWind",
       companylogo: require("./assets/images/logicwind.png"),
       date: "",
       desc: "",
       descBullets: [
-        "Worked on Building Webhooks across different platforms such as Sentry, Bitbucket, GitLab, GitHub using NodeJS + Express and Sequelize with Postgres",
-        "Alert Members of the Team about all the different activities happening across all the platforms such as in Sentry alert members for bugs and errors, in Bitbucket alert members for changes in the code files and keep track on commits and merge requests",
+        "Worked on Building and authenticating Webhooks across 10 different platforms such as Sentry, Bitbucket, GitLab, GitHub, ClickUp, Jira, etc. using NodeJS+Express and Sequelize with Postgres",
+        // "Alert Members of the Team about all the different activities happening across all the platforms such as in Sentry alert members for bugs and errors, in Bitbucket alert members for changes in the code files and keep track on commits and merge requests",
         "Made a Web Scrapping Tool For Extracting details from other websites using NodeJS + Express and deployed it on AWS Lambda"
       ]
-    }
-    , {
+    },
+    {
       role: "Backend Developer",
       company: "Molmeh-Technolabs",
       companylogo: require("./assets/images/molmeh.png"),
       date: "",
-      desc:
-        "",
+      desc: "",
       descBullets: [
         "Gained Knowledge of Django framework and  worked on projects using Django, Python, JavaScript, HTML and CSS.",
         "I worked on projects such as Scheduling the IPL matches between various teams, deciding the date and the location of the match",
-        "Making Custom User Validation and authentication in Django",
-
+        "Making Custom User Validation and authentication in Django"
       ]
-    },
+    }
   ]
 };
 const bigProjects = {
@@ -191,7 +201,8 @@ const bigProjects = {
     {
       image: require("./assets/images/linkedin.png"),
       projectName: "Linkedin Bot",
-      projectDesc: "Automating the process of getting referrals and cold mailing people on linkedin",
+      projectDesc:
+        "Automating the process of getting referrals and cold mailing people on linkedin",
       footerLink: [
         {
           name: "Visit Project",
@@ -202,7 +213,8 @@ const bigProjects = {
     {
       image: require("./assets/images/project1.png"),
       projectName: "Engage For Change",
-      projectDesc: "A platform where people could connect and post about social work and help in uplift the community.",
+      projectDesc:
+        "A platform where people could connect and post about social work and help in uplift the community.",
       footerLink: [
         {
           name: "Visit Project",
@@ -214,7 +226,8 @@ const bigProjects = {
     {
       image: require("./assets/images/musicplayer.png"),
       projectName: "Music Player",
-      projectDesc: "Music Player Using Python. Some of the Unique Features include Visualization of the audio signals, saving and recording of the songs,conversion of songs from one format to another (eg from .wav to mp3 or vice-versa)  ",
+      projectDesc:
+        "Music Player Using Python. Some of the Unique Features include Visualization of the audio signals, saving and recording of the songs,conversion of songs from one format to another (eg from .wav to mp3 or vice-versa)  ",
       footerLink: [
         {
           name: "Visit Project",
@@ -224,8 +237,10 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/mlmodel.png"),
-      projectName: "Machine Learning Model on Gender predictions based on Twitter user dataset",
-      projectDesc: "Naive Bayes algorithm gives the best accuracy of around 69% if the feature extraction method used is Bag of Words. For More Details Check the project link below",
+      projectName:
+        "Machine Learning Model on Gender predictions based on Twitter user dataset",
+      projectDesc:
+        "Naive Bayes algorithm gives the best accuracy of around 69% if the feature extraction method used is Bag of Words. For More Details Check the project link below",
       footerLink: [
         {
           name: "Visit Project",
@@ -247,39 +262,22 @@ const openSource = {
 
 // Some big projects you have worked on
 
-
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements 🏆 "),
-  subtitle:
-    "Some Cool Stuff that I have done !",
+  subtitle: "Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "CodeChef Profile",
-      subtitle:
-        "Actively Taking Part in codechef challenges",
+      subtitle: "Actively Taking Part in codechef challenges",
       image: require("./assets/images/codechef.png"),
       footerLink: [
         {
           name: "Profile",
-          url:
-            "https://www.codechef.com/users/avishmehta"
-        },
-      ]
-    },
-    {
-      title: "Hackerrank",
-      subtitle:
-        "Hackerrank Profile",
-      image: require("./assets/images/hackerrank.png"),
-      footerLink: [
-        {
-          name: "Profile ",
-          url:
-            "https://www.hackerrank.com/avishmehta2001"
+          url: "https://www.codechef.com/users/avishmehta"
         }
       ]
     },
@@ -289,7 +287,32 @@ const achievementSection = {
       subtitle: "GeeksforGeeks Profile",
       image: require("./assets/images/geeksforgeeks.png"),
       footerLink: [
-        { name: "Profile", url: "https://auth.geeksforgeeks.org/user/avishmehta2001/practice/" },
+        {
+          name: "Profile",
+          url: "https://auth.geeksforgeeks.org/user/avishmehta2001/practice/"
+        }
+      ]
+    },
+    {
+      title: "LeetCode",
+      subtitle: "LeetCode Profile",
+      image: require("./assets/images/LeetCode.png"),
+      footerLink: [
+        {
+          name: "Profile",
+          url: "https://leetcode.com/pythonleaves/"
+        }
+      ]
+    },
+    {
+      title: "Hackerrank",
+      subtitle: "Hackerrank Profile",
+      image: require("./assets/images/hackerrank.png"),
+      footerLink: [
+        {
+          name: "Profile ",
+          url: "https://www.hackerrank.com/avishmehta2001"
+        }
       ]
     }
   ],
@@ -300,21 +323,17 @@ const achievementSection = {
 
 const blogSection = {
   title: "Publications",
-  subtitle:
-    "I love to do explore new things and solve problems",
+  subtitle: "I love to do explore new things and solve problems",
 
   blogs: [
     {
-
       title: " Ground temperature estimation using Machine Learning ",
-      description:
-        "Publisher: World Geothermal Congress, Reykjavik"
+      description: "Publisher: World Geothermal Congress, Reykjavik"
     },
     {
-
-      title: "A Comprehensive Study on Amalgamation of Sustainable Solar Powered Distillation for Arsenic and Fluoride Removal from Groundwater",
-      description:
-        "Publisher: Elsiever"
+      title:
+        "A Comprehensive Study on Amalgamation of Sustainable Solar Powered Distillation for Arsenic and Fluoride Removal from Groundwater",
+      description: "Publisher: Elsiever"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -324,21 +343,20 @@ const blogSection = {
 
 const talkSection = {
   title: "Current Activities",
-  subtitle: emoji(
-    "More About Myself 😅"
-  ),
+  subtitle: emoji("More About Myself 😅"),
 
   talks: [
     {
       title: "Techical Member at Robotics and Automation Club of PDEU",
-      subtitle: "We Conduct Webinars and Teach Students technologies like Arduino,Opencv,ROS etc",
+      subtitle:
+        "We Conduct Webinars and Teach Students technologies like Arduino,Opencv,ROS etc",
       event_url: "https://cretus-pdpu.github.io/"
     },
     {
       title: "Core Member at TechnoEconomics Club of PDEU",
       subtitle: "We Conduct Events Related to Finance and Technology",
       event_url: "https://anirveda.club/"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -350,9 +368,7 @@ const podcastSection = {
   subtitle: "Things I Love to do",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "Robotics and Gaming"
-  ],
+  podcast: ["Robotics and Gaming"],
   display: false // Set false to hide this section, defaults to true
 };
 
