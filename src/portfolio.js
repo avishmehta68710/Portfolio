@@ -157,7 +157,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Backend Developer",
+      role: "SDE Internship",
       company: "Aztlan",
       companylogo: require("./assets/images/aztlan.png"),
       data: "",
@@ -169,7 +169,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend Developer",
+      role: "SDE Internship",
       company: "LogicWind",
       companylogo: require("./assets/images/logicwind.png"),
       date: "",
@@ -181,7 +181,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Backend Developer",
+      role: "SDE Internship",
       company: "Molmeh-Technolabs",
       companylogo: require("./assets/images/molmeh.png"),
       date: "",
