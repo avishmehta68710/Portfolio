@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Tech Enthusiast 🚀 looking for opportunites as a software engineer "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1DsC_-njY-9nHVxuYESoIqelX13NA3Mn9/view?usp=sharing",
+    "https://drive.google.com/file/d/1GBQu-qmBuXgnWw7iypjQu7rNnrIWfhN7/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,16 +51,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "nodejs",
@@ -79,23 +71,19 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-cuttlefish"
     },
     {
-      skillName: "Flutter",
-      fontAwesomeClassname: "fab fa-flutter"
-    },
-    {
-      skillName: "GitHub",
-      fontAwesomeClassname: "fab fa-github"
-    },
-    {
-      skillName: "Linux",
-      fontAwesomeClassname: "fab fa-linux"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Postgres",
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     }
   ],
@@ -117,7 +105,7 @@ const educationInfo = {
         "Made a App in Google Developer Solution Challenge for acheveing 17 suistainable development goals set by UN.We Managed to acheive 4 goals (Peace, Justice and Strong Institutions; Partnerships for the goals; Quality Education) ",
         "Achieved a global rank of 439 in codechef challenge",
         "University topper in geeksforgeeks",
-        "Current CPI : 9.5"
+        "Current CPI : 9.05"
       ]
     },
     {
@@ -140,8 +128,8 @@ const techStack = {
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Front-End ",
-      progressPercentage: "70%"
+      Stack: "DevOps ",
+      progressPercentage: "50%"
     },
     {
       Stack: "Backend",
@@ -157,23 +145,59 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "SDE Internship",
+      role: "Software Engineer Intern",
+      company: "Tartan",
+      data:"August 2022 - December 2022",
+      companylogo: require("./assets/images/tartan.png"),
+      desc:"August 2022 - December 2022",
+      descBullets: [
+          "Developed and implemented an analytics framework forBatik (employer benefits marketplace)",
+          "Created a framework for daily scanning of production logs and sending customized daily and weekly reports on errors and vulnerabilities in the system via Slack",
+          "Upgraded and maintained the Batik platform",
+          "Developed and enhanced the Grafana platform for monitoring,analytics and alerting purposes."
+      ]
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Mensa Brands",
+      data:"February 2022 - July 2022",
+      desc:"February 2022 - July 2022",
+      companylogo: require("./assets/images/mensa_brands.png"),
+        descBullets: [
+            "Central data aggregation and ETL engine to pull data from multiple brand seller accounts across marketplaces through API processing more than 4M records per day.",
+            "Worked on creating the Catalog Management System to centralize and streamline SKU master database, cataloging, and CatOps.",
+            "Worked on creating a Central data scraping engine to aggregate track and analyze the 170 brands' performance across 6 marketplaces, 4 geographies, and 4 languages. Engine scraped 20k pages per day"
+        ]
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "PredictiVu",
+      data: "October 2021 - January 2022",
+      desc:"October 2021 - January 2022",
+        companylogo: require("./assets/images/predictivu.png"),
+      descBullets: [
+          "Worked on creating audience measurement, audience segmentation and customer journey for web and mobile.",
+          "Created a mobile application in android and React Native for eight passive data collection methods such as all apps installed, app usage details, and location details etc.Created a NodeJS API for sending data from android and React Native to NodeJS and from NodeJS to MongoDB.",
+          "Worked on creating a Scrapper from Amazon and big basket to handle IP blocking and lazy loading through various methods such as IP rotation and proxies, Honey Pots, User Agents and request headers etc."
+        ]
+    },
+    {
+      role: "Software Engineer Intern",
       company: "Aztlan",
       companylogo: require("./assets/images/aztlan.png"),
       data: "",
-      desc: "",
+      desc: "September 2021 - October 2021",
       descBullets: [
         "Worked on making the user Flows and Dashboard for Ola Electric, which enables users to buy electric vehicles from Ola and also reduces the number of physical visits to RTO using Nodejs",
-
         "Worked on various other projects such as startup investor meet and tapeit which connects entrepreneurs and investors together and the dashboard to order tapes for different vehicles using Supabase(Open Source for Firebase), SQL and JavaScript"
       ]
     },
     {
-      role: "SDE Internship",
+      role: "Software Engineer Intern",
       company: "LogicWind",
       companylogo: require("./assets/images/logicwind.png"),
       date: "",
-      desc: "",
+      desc: "June 2021 - September 2021",
       descBullets: [
         "Worked on Building and authenticating Webhooks across 10 different platforms such as Sentry, Bitbucket, GitLab, GitHub, ClickUp, Jira, etc. using NodeJS+Express and Sequelize with Postgres",
         // "Alert Members of the Team about all the different activities happening across all the platforms such as in Sentry alert members for bugs and errors, in Bitbucket alert members for changes in the code files and keep track on commits and merge requests",
@@ -181,11 +205,11 @@ const workExperiences = {
       ]
     },
     {
-      role: "SDE Internship",
+      role: "Software Engineer Intern",
       company: "Molmeh-Technolabs",
       companylogo: require("./assets/images/molmeh.png"),
       date: "",
-      desc: "",
+      desc: "February 2022 - April 2022",
       descBullets: [
         "Gained Knowledge of Django framework and  worked on projects using Django, Python, JavaScript, HTML and CSS.",
         "I worked on projects such as Scheduling the IPL matches between various teams, deciding the date and the location of the match",
