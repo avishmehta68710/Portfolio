@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+.idea/
+build/
+
 
 # testing
 /coverage
@@ -23,6 +26,7 @@ yarn-error.log*
 
 #user generated content
 public/profile.json
+package-lock.json
 
 # Local Netlify folder
 .netlify

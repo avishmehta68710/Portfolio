@@ -1,6 +1,7 @@
 import React from "react";
 import "./SocialMedia.css";
 import {socialMediaLinks} from "../../portfolio";
+import { Tooltip } from 'antd';
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -115,6 +116,11 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      <Tooltip title="+91 6377216865">
+            <i className='fa fa-phone white-color fa-xs' style = {{transform: 'rotate(90deg)', marginLeft:"1%"}}></i>
+          <span></span>
+      </Tooltip>
     </div>
   );
 }

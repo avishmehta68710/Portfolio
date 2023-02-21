@@ -12,7 +12,7 @@ const greeting = {
   username: "Avish Mehta",
   title: "Hi all, I'm Avish",
   subTitle: emoji(
-    "A passionate Tech Enthusiast 🚀 looking for opportunites as a software engineer "
+    "A passionate Tech Enthusiast 🚀 looking for solving real life problems with technology. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1GBQu-qmBuXgnWw7iypjQu7rNnrIWfhN7/view?usp=sharing",
@@ -25,6 +25,8 @@ const socialMediaLinks = {
   github: "https://github.com/avishmehta68710",
   linkedin: "https://www.linkedin.com/in/avishmehta",
   gmail: "avishmehta68710@gmail.com",
+  twitter: "https://twitter.com/AvishMehta4",
+  phone: "+91-6377216865",
   // gitlab: "https://gitlab.com/avishmehta68710",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
