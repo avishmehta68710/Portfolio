@@ -15,7 +15,7 @@ const greeting = {
     "A passionate Tech Enthusiast 🚀 looking for solving real life problems with technology. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1GBQu-qmBuXgnWw7iypjQu7rNnrIWfhN7/view?usp=sharing",
+    "https://docs.google.com/document/d/1Gduv1ekmS8x5y9j2f2UC0sJvJVAz_UpF/edit?usp=sharing&ouid=105077262979127934832&rtpof=true&sd=true",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
