@@ -81,10 +81,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     }
@@ -107,7 +103,7 @@ const educationInfo = {
         "Made a App in Google Developer Solution Challenge for acheveing 17 suistainable development goals set by UN.We Managed to acheive 4 goals (Peace, Justice and Strong Institutions; Partnerships for the goals; Quality Education) ",
         "Achieved a global rank of 439 in codechef challenge",
         "University topper in geeksforgeeks",
-        "Current CPI : 9.05"
+        "Current CPI : 9.13"
       ]
     },
     {
@@ -130,13 +126,13 @@ const techStack = {
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
+      Stack: "Backend",
+      progressPercentage: "60%"
+    },
+    {
       Stack: "DevOps ",
       progressPercentage: "50%"
     },
-    {
-      Stack: "Backend",
-      progressPercentage: "60%"
-    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -147,16 +143,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer",
+      company: "Mensa Brands",
+      data:"February 2023 - Present",
+      desc:"February 2023 - Present",
+      companylogo: require("./assets/images/mensa_brands.png"),
+        descBullets: [
+            "Designed and Implemented Inventory Planning using Python, Docker and AWS to help operations teams plan purchase orders in advance to reduce stock out days",
+            "Improvising the accuracy from 30% to 95% of analytics platform, reducing the third party proxy costs and developed a automated test suite to detect DOM changes using Python, AWS and Github Actions"
+        ]
+    },
+    {
       role: "Software Engineer Intern",
       company: "Tartan",
       data:"August 2022 - December 2022",
       companylogo: require("./assets/images/tartan.png"),
       desc:"August 2022 - December 2022",
       descBullets: [
-          "Developed and implemented an analytics framework forBatik (employer benefits marketplace)",
-          "Created a framework for daily scanning of production logs and sending customized daily and weekly reports on errors and vulnerabilities in the system via Slack",
-          "Upgraded and maintained the Batik platform",
-          "Developed and enhanced the Grafana platform for monitoring,analytics and alerting purposes."
+          "Improved and added flexibility for internal MIS and web application for better user management using Spring Boot",
+          "Designed and Implemented ETL pipelines using Python and AWS to process and analyze data from multiple sources and store it in a data warehouse",
+          "Created Grafana dashboards with real time alerts to identify system failures and service usages",
+          "Developed a logging framework that performs daily scans and deliver tailored error reports via slack daily and weekly",
+          "Upgraded and maintained the Batik platform to support new features and improve performance"
       ]
     },
     {
@@ -166,8 +174,8 @@ const workExperiences = {
       desc:"February 2022 - July 2022",
       companylogo: require("./assets/images/mensa_brands.png"),
         descBullets: [
-            "Central data aggregation and ETL engine to pull data from multiple brand seller accounts across marketplaces through API processing more than 4M records per day.",
-            "Worked on creating the Catalog Management System to centralize and streamline SKU master database, cataloging, and CatOps.",
+            "Built central ETL engine using Python and AWS to ingest 4 million records per day from multiple seller accounts across marketplaces using API",
+            "Created the Catalog Management System to centralize and streamline SKU master database,cataloging using Spring Boot, Docker and AWS",
             "Worked on creating a Central data scraping engine to aggregate track and analyze the 170 brands' performance across 6 marketplaces, 4 geographies, and 4 languages. Engine scraped 20k pages per day"
         ]
     },
@@ -225,6 +233,18 @@ const bigProjects = {
   subtitle: "SOME OF MY SPOTLIGHT PROJECTS",
   projects: [
     {
+      image: require("./assets/images/tentakool_logo.png"),
+      projectName: "Ticket Allocation System",
+      projectDesc:
+        "A software solution that automates ticket allocation considering predefined rules, agent availability, and wait time. It offers comprehensive reporting and analytics for task assignment and completion, aiding managers in decision-making.",
+      footerLink: [
+        {
+          name: "Visit Software",
+          url: "https://tentakool.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/linkedin.png"),
       projectName: "Linkedin Bot",
       projectDesc:
@@ -260,19 +280,6 @@ const bigProjects = {
           url: "https://github.com/avishmehta68710/Music-Player"
         }
       ]
-    },
-    {
-      image: require("./assets/images/mlmodel.png"),
-      projectName:
-        "Machine Learning Model on Gender predictions based on Twitter user dataset",
-      projectDesc:
-        "Naive Bayes algorithm gives the best accuracy of around 69% if the feature extraction method used is Bag of Words. For More Details Check the project link below",
-      footerLink: [
-        {
-          name: "Visit Project",
-          url: "https://github.com/avishmehta68710/ML07B1"
-        }
-      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -297,18 +304,6 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "CodeChef Profile",
-      subtitle: "Actively Taking Part in codechef challenges",
-      image: require("./assets/images/codechef.png"),
-      footerLink: [
-        {
-          name: "Profile",
-          url: "https://www.codechef.com/users/avishmehta"
-        }
-      ]
-    },
-
-    {
       title: "GeeksforGeeks",
       subtitle: "GeeksforGeeks Profile",
       image: require("./assets/images/geeksforgeeks.png"),
@@ -327,6 +322,17 @@ const achievementSection = {
         {
           name: "Profile",
           url: "https://leetcode.com/pythonleaves/"
+        }
+      ]
+    },
+    {
+      title: "CodeChef Profile",
+      subtitle: "Actively Taking Part in codechef challenges",
+      image: require("./assets/images/codechef.png"),
+      footerLink: [
+        {
+          name: "Profile",
+          url: "https://www.codechef.com/users/avishmehta"
         }
       ]
     },
